@@ -1,0 +1,9 @@
+try:
+    n=input()
+    num=int(n)
+    n=input()
+    den=int(n)
+    value=num/den
+    print(value)
+except:
+    print("error")
